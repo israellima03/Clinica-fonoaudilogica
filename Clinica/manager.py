@@ -8,12 +8,12 @@ class Manager(Tk):
         super().__init__(*args, **kwargs)
         self.title("Clinica Fonoaudiologica version 1.0")
         self.resizable(False, False)
-        self.configure(bg="#C6D9E3")
+        self.configure(bg="#C5DAE6")
         #el tamaño de la ventana principal
         self.geometry("800x400+120+20")
 
 
-        self.container = Frame(self, bg="#C6D9E3")
+        self.container = Frame(self, bg="#C5DAE6")
         self.container.pack(fill="both", expand=True)
 
         self.frames = {
